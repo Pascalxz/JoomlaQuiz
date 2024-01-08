@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.7" method="upgrade">
+    <name>com_quiz</name>
+    <creationDate>April 2023</creationDate>
+    <author>Your Name</author>
+    <authorEmail>you@example.com</authorEmail>
+    <authorUrl>http://www.example.com</authorUrl>
+    <version>1.0.0</version>
+    <description>Quiz Component for Joomla.</description>
+    <scriptfile>install.script.php</scriptfile>
+    <files folder="site">
+        <folder>controllers</folder>
+        <folder>models</folder>
+        <folder>views</folder>
+        <filename>index.html</filename>
+        <filename>controller.php</filename>
+    </files>
+    <administration>
+        <menu>COM_QUIZ</menu>
+        <submenu>
+            <menu link="option=com_quiz&amp;view=quizzes">COM_QUIZ_SUBMENU_QUIZZES</menu>
+            <menu link="option=com_quiz&amp;view=categories">COM_QUIZ_SUBMENU_CATEGORIES</menu>
+        </submenu>
+        <files folder="admin">
+            <folder>controllers</folder>
+            <folder>models</folder>
+            <folder>views</folder>
+            <folder>helpers</folder>
+            <filename>index.html</filename>
+            <filename>controller.php</filename>
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>install.script.php</filename>
+        </files>
+        <languages folder="admin/language">
+            <language tag="en-GB">en-GB/en-GB.com_quiz.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_quiz.sys.ini</language>
+        </languages>
+        <languages folder="site/language">
+            <language tag="en-GB">en-GB/en-GB.com_quiz.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_quiz.sys.ini</language>
+        </languages>
+    </administration>
+</extension>

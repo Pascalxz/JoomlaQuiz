@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset name="basic">
+        <field name="quiz_name" type="text" default="" label="COM_QUIZ_CONFIG_QUIZ_NAME_LABEL" description="COM_QUIZ_CONFIG_QUIZ_NAME_DESC" />
+        <field name="quiz_description" type="textarea" default="" label="COM_QUIZ_CONFIG_QUIZ_DESCRIPTION_LABEL" description="COM_QUIZ_CONFIG_QUIZ_DESCRIPTION_DESC" />
+    </fieldset>
+</config>
